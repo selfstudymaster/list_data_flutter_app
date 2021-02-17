@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'item_model.dart';
 
 /// Widget for displaying detailed info of [ItemModel]
+
+// ItemDetailsPageクラスのStatefulWidget
 class ItemDetailsPage extends StatefulWidget {
   final ItemModel model;
 
@@ -12,6 +14,7 @@ class ItemDetailsPage extends StatefulWidget {
   _ItemDetailsPageState createState() => _ItemDetailsPageState();
 }
 
+// ItemDetailsPageState
 class _ItemDetailsPageState extends State<ItemDetailsPage> {
   @override
   Widget build(BuildContext context) {

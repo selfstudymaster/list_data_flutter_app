@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 /// [title] - text title of the item.
 /// [description] - text description of the item.
 ///
+
+// ItemModelクラスを定義
 class ItemModel {
   // class constructor
   ItemModel(this.id, this.icon, this.title, this.description);

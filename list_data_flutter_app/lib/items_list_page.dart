@@ -12,6 +12,7 @@ class ItemsListPage extends StatefulWidget {
   _ItemsListPageState createState() => _ItemsListPageState();
 }
 
+// _ItemsListPageState
 class _ItemsListPageState extends State<ItemsListPage> {
 // Hard-coded list of [ItemModel] to be displayed on our page.
   final List<ItemModel> _items = [

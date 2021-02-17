@@ -19,3 +19,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+// ItemsListPage()のStatefulWidgetを別ファイルitems_list_page.dartに切り出す
