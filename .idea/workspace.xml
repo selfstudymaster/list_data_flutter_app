@@ -23,13 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c63b8fe-1748-4a8a-9743-6c03857d1ceb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/list_data_flutter_app.clone.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list_data_flutter_app/lib/item_details_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/list_data_flutter_app/lib/item_details_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list_data_flutter_app/lib/item_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/list_data_flutter_app/lib/item_model.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list_data_flutter_app/lib/items_list_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/list_data_flutter_app/lib/items_list_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list_data_flutter_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/list_data_flutter_app/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/list_data_flutter_app.clone.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/list_data_flutter_app.clone.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,15 +71,25 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="272" y="154" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613528771342">
+    <state x="686" y="362" key="#Notifications" timestamp="1613530853979">
       <screen x="0" y="23" width="1416" height="877" />
     </state>
-    <state x="272" y="154" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1416.877@0.23.1416.877" timestamp="1613528771342" />
-    <state x="309" y="132" key="SettingsEditor" timestamp="1613528041342">
+    <state x="686" y="362" key="#Notifications/0.23.1416.877@0.23.1416.877" timestamp="1613530853979" />
+    <state x="100" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613531767824">
+      <screen x="0" y="23" width="1415" height="877" />
+    </state>
+    <state x="100" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1415.877@0.23.1415.877" timestamp="1613531767824" />
+    <state x="272" y="154" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1416.877@0.23.1416.877" timestamp="1613531244958" />
+    <state x="395" y="242" key="IDE.errors.dialog" timestamp="1613531610140">
+      <screen x="0" y="23" width="1415" height="877" />
+    </state>
+    <state x="395" y="242" key="IDE.errors.dialog/0.23.1415.877@0.23.1415.877" timestamp="1613531610140" />
+    <state x="309" y="132" key="SettingsEditor" timestamp="1613531229003">
       <screen x="0" y="23" width="1416" height="877" />
     </state>
-    <state x="309" y="132" key="SettingsEditor/0.23.1416.877@0.23.1416.877" timestamp="1613528041342" />
+    <state x="309" y="132" key="SettingsEditor/0.23.1416.877@0.23.1416.877" timestamp="1613531229003" />
   </component>
 </project>
