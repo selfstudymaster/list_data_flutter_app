@@ -20,6 +20,7 @@ class _ItemDetailsPageState extends State<ItemDetailsPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        // item_model.dartで定義したtitle
         title: Text(widget.model.title),
       ),
       body: Center(
@@ -27,14 +28,17 @@ class _ItemDetailsPageState extends State<ItemDetailsPage> {
           children: [
             const SizedBox(height: 16),
             Hero(
+              // item_model.dartで定義したid
               tag: widget.model.id,
               child: Icon(
+                // item_model.dartで定義したicon
                 widget.model.icon,
                 size: 100,
               ),
             ),
             const SizedBox(height: 16),
             Text(
+              // item_model.dartで定義したdescription
               'Item description: ${widget.model.description}',
               style: TextStyle(fontSize: 18),
             )

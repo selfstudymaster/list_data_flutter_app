@@ -9,10 +9,10 @@ import 'package:flutter/material.dart';
 
 // ItemModelクラスを定義
 class ItemModel {
-  // class constructor
+  // コンストラクタ
   ItemModel(this.id, this.icon, this.title, this.description);
 
-  // class fields
+  // 変数
   final int id;
   final IconData icon;
   final String title;

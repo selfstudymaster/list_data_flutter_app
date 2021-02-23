@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'item_details_page.dart';
 import 'item_model.dart';
 
+// _ItemsListPageStateの前置きとなるStatefulWidgetのItemsListPageクラス
 class ItemsListPage extends StatefulWidget {
   ItemsListPage({Key key, this.title}) : super(key: key);
 
@@ -14,7 +15,8 @@ class ItemsListPage extends StatefulWidget {
 
 // _ItemsListPageState
 class _ItemsListPageState extends State<ItemsListPage> {
-// Hard-coded list of [ItemModel] to be displayed on our page.
+  // ItemModelリストのitemsの定義
+  // Hard-coded list of [ItemModel] to be displayed on our page.
   final List<ItemModel> _items = [
     ItemModel(0, Icons.account_balance, 'Balance', 'balance'),
     ItemModel(
@@ -49,6 +51,7 @@ class _ItemsListPageState extends State<ItemsListPage> {
   // Method which uses BuildContext to push (open) new MaterialPageRoute (representation of the screen in Flutter navigation model) with ItemDetailsPage (StateFullWidget with UI for page) in builder.
   _onItemTap(BuildContext context, int itemIndex) {
     Navigator.of(context).push(MaterialPageRoute(
+        // ItemDetailsPage()クラスはitem_details_page.dartに切り出す
         builder: (context) => ItemDetailsPage(_items[itemIndex])));
   }
 }
